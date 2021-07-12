@@ -1,0 +1,41 @@
+
+/* gère le padding */
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+}
+
+.svg-container {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+header {
+  color: #fff;
+  padding-top: 111px;
+
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+  h1 {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+
+  h2 {
+      float: none;
+      display: block;
+      text-align: right;
+  }
+}
